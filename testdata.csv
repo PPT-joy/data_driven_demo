@@ -1,0 +1,4 @@
+username,password,expected_code,expected_msg
+admin,123456,200,success
+guest,wrong,200,unauthorized
+test,pass,200,success
