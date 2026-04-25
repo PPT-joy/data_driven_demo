@@ -18,6 +18,7 @@ data_driven_demo/
 └── .gitignore                  # Git 忽略文件
 ```
 
+
 ## 快速开始
 
 ## 项目结构
@@ -25,7 +26,7 @@ data_driven_demo/
  conftest.py # pytest 共享 fixture
  test_data_driven.py # 数据驱动测试用例（CSV/Excel）
  test_db_validation.py # 数据库校验测试（MySQL）
-test_db_validation_sqlite.py # 数据库校验测试（SQLite）
+ test_db_validation_sqlite.py # 数据库校验测试（SQLite）
  test_with_db.py # 集成数据库的测试示例
  test_seleium_demo.py # Selenium UI 自动化示例
  db_utils.py # MySQL 数据库工具类
@@ -36,7 +37,6 @@ test_db_validation_sqlite.py # 数据库校验测试（SQLite）
  testdata.xlsx # Excel 测试数据
  requirements.txt # Python 依赖
  .gitignore # Git 忽略文件
-
 ## 快速开始
 
 ### 1. 安装依赖
