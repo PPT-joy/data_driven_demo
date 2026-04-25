@@ -17,11 +17,12 @@ data_driven_demo/
 ├── requirements.txt            # Python 依赖
 └── .gitignore                  # Git 忽略文件
 ```
-
+git add README.md
 
 ## 快速开始
 
 ## 项目结构
+```
  data_driven_demo/
  conftest.py # pytest 共享 fixture
  test_data_driven.py # 数据驱动测试用例（CSV/Excel）
@@ -37,6 +38,7 @@ data_driven_demo/
  testdata.xlsx # Excel 测试数据
  requirements.txt # Python 依赖
  .gitignore # Git 忽略文件
+ ```
 ## 快速开始
 
 ### 1. 安装依赖
