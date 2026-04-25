@@ -16,21 +16,21 @@
 | 性能测试 | JMeter |
 
 ## 项目结构
-data_driven_demo/
-├── conftest.py # pytest 共享 fixture
-├── test_data_driven.py # 数据驱动测试用例（CSV/Excel）
-├── test_db_validation.py # 数据库校验测试（MySQL）
-├── test_db_validation_sqlite.py # 数据库校验测试（SQLite）
-├── test_with_db.py # 集成数据库的测试示例
-├── test_seleium_demo.py # Selenium UI 自动化示例
-├── db_utils.py # MySQL 数据库工具类
-├── db_utils_sqlite.py # SQLite 数据库工具类
-├── db_config.py # 数据库配置文件
-├── api_performance_test.jmx # JMeter 性能测试脚本
-├── testdata.csv # CSV 测试数据
-├── testdata.xlsx # Excel 测试数据
-├── requirements.txt # Python 依赖
-└── .gitignore # Git 忽略文件
+ data_driven_demo/
+ conftest.py # pytest 共享 fixture
+ test_data_driven.py # 数据驱动测试用例（CSV/Excel）
+ test_db_validation.py # 数据库校验测试（MySQL）
+test_db_validation_sqlite.py # 数据库校验测试（SQLite）
+ test_with_db.py # 集成数据库的测试示例
+ test_seleium_demo.py # Selenium UI 自动化示例
+ db_utils.py # MySQL 数据库工具类
+ db_utils_sqlite.py # SQLite 数据库工具类
+ db_config.py # 数据库配置文件
+ api_performance_test.jmx # JMeter 性能测试脚本
+ testdata.csv # CSV 测试数据
+ testdata.xlsx # Excel 测试数据
+ requirements.txt # Python 依赖
+ .gitignore # Git 忽略文件
 
 ## 快速开始
 
